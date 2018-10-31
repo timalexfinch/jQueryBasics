@@ -1,0 +1,108 @@
+﻿body {
+    text-align: center;
+}
+
+header, nav {
+    text-align: center;
+}
+
+h1 {
+    color: mediumblue;
+}
+
+h2 {
+    color: darkslateblue;
+}
+
+p {
+    color: midnightblue;
+    font-size: large;
+}
+
+label {
+    color: green;
+    font-size: x-large;
+}
+
+footer p {
+    text-align: center;
+    font-size: x-small;
+    color: deepskyblue;
+}
+
+.lightBlue {
+    background-color: aquamarine;
+}
+
+.silver{
+    background-color:silver;
+}
+
+table {
+    margin-bottom: .7em;
+    border-collapse: collapse;
+    border-style: outset;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+th {
+    text-align: left;
+    background-color: #1f4348;
+    color: #fff;
+    padding: .5em;
+    border-bottom: 2px solid #102224;
+}
+
+td {
+    background-color: #edecec;
+    padding: .5em;
+    border-top: 1px solid #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+.customers {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -45px;
+    margin-left: -295px;
+
+    /*text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;*/
+}
+
+.weather {
+    color: green;
+}
+
+.red {
+    color: red;
+    font-size: larger;
+}
+
+.forestGreen {
+    background-color: forestgreen;
+}
+
+.yellowGreen {
+    background-color: yellowgreen;
+}
+
+.redbg {
+    background-color: red;
+}
+
+#userPicture {
+    border-radius: 50%;
+}
+
+#randomUser {
+    border-radius: 25px;
+}

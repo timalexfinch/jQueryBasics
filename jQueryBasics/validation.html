@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Validation</title>
+    <meta charset="utf-8" />
+    <link href="Content/StyleSheet1.css" rel="stylesheet" />
+   <script src="Scripts/jquery-3.3.1.js"></script>
+    <script src="Scripts/jquery.validate.js"></script>
+    <script src="Scripts/validate.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="validation.html">Validation</a> |
+        <a href="ajaxFromScratch.html">AJAX from Scratch</a> |
+        <a href="ajaxDemos.html">AJAX Demos</a>
+    </nav>
+    <header><h1>jQuery Validation Demo</h1></header>
+    <main>
+        <form id="commentForm" method="get" action="PassedValidation.html" >
+            <fieldset>
+                <legend><br /><br />Please provide your name, email address (won't be published) and a comment</legend>
+
+                <p>
+                    <label for="txtFirstName">UserName:(Required) </label>
+                    <input id="cname" name="name" type="text" required /> <br />
+                </p>
+                <p>
+                    <label for="txtEmail">Email: (Required) </label>
+                    <input id="cemail" type="email" name="email" required /><br /><br />
+                </p>
+                <p>
+                    <label for="curl">URL (optional)</label>
+                    <input id="curl" type="url" name="url">
+                </p>
+                <p>
+                    <label for="ccomment">Your comment (required)</label>
+                    <textarea id="ccomment" name="comment" required></textarea>
+                </p>
+                <p>
+                    <button>Submit</button><br /><br />
+
+                    <hr />
+                </p>
+            </fieldset>
+        </form>
+    </main>
+    <footer><br /><br />&copy; tim finch 2016</footer>
+</body>
+</html>

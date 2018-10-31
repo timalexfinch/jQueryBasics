@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX Demos</title>
+    <meta charset="utf-8" />
+    <link href="Content/StyleSheet1.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script src="Scripts/ajaxDemos.js"></script>
+    <script src="Scripts/getWeather.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="validation.html">Validation</a> |
+        <a href="ajaxFromScratch.html">AJAX from Scratch</a> |
+        <a href="ajaxDemos.html">AJAX Demos</a>
+    </nav>
+    <header><h1>Use jQuery to make AJAX Calls</h1></header>
+    <main class="center">
+        <p>
+            Vel dapibus a, blandit quis erat vivamus elementum aliquam luctus etiam fringilla pretium sem vitae sodales mauris id nulla est praesent laoreet, metus vel auctor aliquam, eros purus vulputate leo, eget consequat neque quam id tellus duis ultricies tempor tortor, vitae dignissim ligula mattis nec in hac habitasse platea dictumst ut arcu enim, dictum quis ultrices id, sagittis eget nulla sed nunc mi, congue ut ultricies ac, varius a eros donec porttitor, libero fermentum fringilla laoreet, eros arcu sodales ante, ut dictum risus lectus vel quam integer ultricies, nunc eget elementum euismod, orci enim vestibulum orci, nec suscipit urna odio et tellus suspendisse suscipit orci sit amet sem venenatis nec lobortis sem suscipit nullam nec imperdiet velit mauris eu nisi a felis imperdiet porta at ac nulla vivamus faucibus felis nec dolor pretium eget pellentesque dolor suscipit maecenas vitae enim arcu, at tincidunt nunc pellentesque eleifend vulputate lacus, vel semper.
+            <br /><br />
+            <!--<img src="Content/Images/brecons.jpg" height="300" width="300"/>-->
+            <!--<img src="http://lorempixel.com/300/300/" alt=" " />-->
+        </p>
+        <p>
+            <img src="Content/Images/Einstein.jpg" width="200" height="200" alt="Albert Einstein" /><br />
+            <button id="btnEinstein">Learn more about Einstein</button>
+            <br />
+            <label id="lblEinstein">
+                If you click the button above, you will make an
+                <br />
+                AJAX call back to the server to read a data file
+                <br />
+                Both the button and this text will disapear
+            </label>
+            <hr />
+        </p>
+        <!--<p>
+            Press this button to make an AJAX call to retreive a data file <br />
+            from the server<br /><br />
+            <button id="btnGetDataFile">Make an AJAX call</button><br /><br />
+            <label id="lblAJAXdata">answer here</label><br /><br />
+            <hr />
+        </p>-->
+        <p>
+            Press this button to make an AJAX call to get the time of day <br />
+            from a GetTime service on the local host:<br /><br />
+            <button id="btnCallAJAX">Make an AJAX call</button><br /><br />
+            <label id="lblAJAXout">answer here</label><br /><br />
+            <hr />
+        </p>
+        <p>
+            <h2>Call a Web Service</h2>
+        <p>
+            Press this button, and we'll use jQuery to make an AJAX call to a remote Web Service<br />
+            It's a free service that simply returns a random user.
+        </p>
+        <p>
+            <button id="btnGetRandomUser">Get Random User Web Service</button>
+            <br /><br />
+        </p>
+        <div id="randomUser" class="text-center ">
+        </div>
+        <hr />
+
+        <!--
+            I removed this next one cos it stopped working. I believe the server was not updated to put appropriate
+            headers to allow Cross Origin Read Blocking - CORB.
+            -->
+        <!--<p>
+            Press this button to get a list of all countries, together with their ISO codes.<br /><br />
+            The list is provided by a service somewhere on the web.<br /><br />
+            <button id="btnGetCountryCodes">Get Countries</button><br /><br />
+        <p id="container">
+        </p>
+        <p>
+            Velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin interdum turpis nunc eget sem nulla eu ultricies orci praesent id augue nec lorem pretium congue sit amet ac nunc fusce iaculis lorem eu diam hendrerit at mattis purus dignissim vivamus mauris tellus, fringilla vel dapibus a, blandit quis erat vivamus elementum aliquam luctus etiam fringilla pretium sem vitae sodales mauris id nulla est praesent laoreet, metus vel auctor aliquam, eros purus vulputate leo, eget consequat neque quam id tellus duis ultricies tempor tortor, vitae dignissim ligula mattis nec in hac habitasse platea dictumst.
+            <br /><hr />
+        </p>-->
+        <!--<p>
+            Press this button to make an AJAX call to a different World Weather API:<br />
+            This will replace the current page (so doesn't show off the AJAX stuff).
+            <br /><br />
+            <button id="btnCallWeather">Get Weather</button><br /><br />
+            <hr />
+        </p>-->
+
+    </main>
+    <footer><br /><br />&copy; tim finch 2018</footer>
+</body>
+</html>
